@@ -1,0 +1,34 @@
+{
+    "name": "zhen3-KLDR",
+    "description": "zhen3-KLDR",
+    "keywords": ["vles mvess."],
+    "env": {
+        "AA": {
+            "description": "初阶用户只需修改以下AUUID点击页面最后的Deploy app按钮即可开始部署",
+            "value": "如出现错误，请检查参数格式或多尝试几次。使用自定义参数请务必先充分理解其含义"
+        },
+        "AUUID": {
+            "description": "UUID充当各个配置的路径和账号密码，建议修改和妥善保存,可生成UUID的网站",
+            "value": "f1ba39e7-f2b5-41df-9f2e-aa260c22544e"
+        },
+        "CADDYIndexPage": {
+            "description": "自定义CADDY部署完成后点击View的显示页面",
+            "value": "https://github.com/tailwindtoolbox/Landing-Page/archive/master.zip"
+        },
+        "CONFIGCADDY": {
+            "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
+            "value": "https://raw.githubusercontent.com/kexuekexue/HerokuXrayTrojanGo/main/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "自定义网络地址读取配置运行xray，不熟悉xray配置的请勿修改",
+            "value": "https://raw.githubusercontent.com/kexuekexue/HerokuXrayTrojanGo/main/etc/xray.json"
+        },
+        "StoreFiles": {
+            "description": "自定义网络地址读取存储文件列表",
+            "value": "https://raw.githubusercontent.com/kexuekexue/HerokuXrayTrojanGo/main/etc/StoreFiles"
+        }
+    },
+    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+    "repository": "",
+    "stack": "container"
+}
